@@ -1,0 +1,66 @@
+A fully functional Java Swing-based Notepad Editor that offers a rich set of features including syntax template loading, font customization, word wrap, and even an integrated Command Prompt launcher. Built as a beginner-friendly code editor for multiple languages such as Java, C, C++, Python, and HTML.
+
+🚀 Features
+✨ New Window: Open multiple instances of the editor.
+
+📂 Open & Save Files: Load existing code or save new ones using system dialog.
+
+💾 Save As: Save current file to a custom location.
+
+🔡 Font Customization: Choose from Arial, Times New Roman, or Consolas.
+
+🔠 Font Size: Adjust font size (10, 15, 18, 25, 29).
+
+🖋️ Font Style: Apply Bold, Italic, or Bold + Italic.
+
+🔄 Word Wrap: Toggle word wrap on or off.
+
+🧠 Language Templates: Load starter templates for Java, C, C++, Python, and HTML.
+
+💻 Command Prompt: Open CMD directly from the editor for quick compiling/testing.
+
+📁 Directory Structure
+css
+Copy
+Edit
+Notepad/
+├── src/
+│   ├── Notepad/
+│   │   └── NotepadEditor.java
+│   └── fetchdoc/
+│       ├── cformat.txt
+│       ├── cppformat.txt
+│       ├── htmlformat.txt
+│       ├── javaformat
+│       └── pythonformat.txt
+🛠️ How to Run
+Clone the Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/Digyaa/notepad-compiler.git
+cd notepad-compiler
+Compile the Code
+
+bash
+Copy
+Edit
+javac -d . src/Notepad/NotepadEditor.java
+Run the Editor
+
+bash
+Copy
+Edit
+java Notepad.NotepadEditor
+📸 Screenshots
+Add screenshots of the UI here if available.
+
+✅ Future Enhancements
+Syntax highlighting
+
+Real-time compiler output for supported languages
+
+File tabbing system
+
+Dark/Light theme switcher
